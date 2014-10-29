@@ -1,0 +1,21 @@
+body {
+  font-family: "Federo";
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(43, 29, 29, 1);
+  background-color: rgba(205, 238, 162, 1);
+}
+
+.page-header {
+  border-bottom: 1px solid rgb(245,68,68);
+}
+
+.page-header h1 {
+  font-size: 64px;
+  color: rgba(55, 58, 63, 1);
+  text-shadow: 2px 2px 0px #cdeea2, 3px 3px 0px rgb(245,68,68);
+  letter-spacing: 1px;
+  font-family: "Cherry Swash";
+  font-weight: 700;
+  font-style: normal;
+}
