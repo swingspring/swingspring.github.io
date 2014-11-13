@@ -8,6 +8,10 @@ body {
   background-color: rgba(205, 238, 162, 1);
 }
 
+.navbar-brand {
+  font-size: 21px;
+}
+
 article {
   padding-top: 51px;
 }
