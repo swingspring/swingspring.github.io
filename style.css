@@ -5,7 +5,21 @@ body {
   font-size: 21px;
   line-height: 135%;
   color: rgba(43, 29, 29, 1);
-  background-color: rgba(205, 238, 162, 1);
+  background-color: rgba(205, 238, 162, 1); /* #C9DF8A? */
+}
+
+/* The Swing Spring logo */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin: 0px auto;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
 .navbar-brand {
