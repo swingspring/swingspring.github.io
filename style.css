@@ -10,16 +10,7 @@ body {
 
 /* The Swing Spring logo */
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 100%;
-  height: auto;
   max-width: 600px;
-  margin: 0px auto;
-  vertical-align: middle;
-  overflow: hidden;
 }
 
 .navbar-brand {
