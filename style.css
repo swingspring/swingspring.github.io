@@ -2,35 +2,39 @@ body {
   font-family: "Federo", "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
-  line-height: 135%;
   color: rgba(43, 29, 29, 1);
-  background-color: rgba(205, 238, 162, 1);
+  background-color: rgba(205, 238, 162, 1); /* #C9DF8A? */
+}
+
+/* The Swing Spring logo */
+.logo {
+  max-width: 600px;
 }
 
 .navbar-brand {
-  font-size: 21px;
+  font-size: 14px;
 }
 
 article {
   padding-top: 51px;
+  font-size: 21px;
+  line-height: 135%;
 }
 
-.page-header {
-  border-bottom: 1px solid rgb(245,68,68);
+article header .container {
+  max-width: 600px;
 }
 
-.page-header h1 {
-  font-size: 64px;
-  color: rgba(55, 58, 63, 1);
-  text-shadow: 2px 2px 0px #cdeea2, 3px 3px 0px rgb(245,68,68);
-  letter-spacing: 1px;
-  font-family: "Cherry Swash", "Georgia", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+article header {
+  background: white;
+  padding: 15px 0;
+}
+
+article header h1 {
+  display: none;
 }
 
 article h2 {
   margin-top: -60px;
-  padding-top: 60px;
+  padding-top: 80px;
 }
