@@ -5,6 +5,11 @@ body {
   color: #2b1d1d;
 }
 
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0.7);
+  border-color: rgba(231, 231, 231, 0.7);
+}
+
 .navbar-brand {
   font-size: 14px;
 }
