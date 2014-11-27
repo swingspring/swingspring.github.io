@@ -18,7 +18,17 @@ header {
   padding: 90px 0 40px;
 }
 
+header .logo {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header .logo img {
+  width: 100%;
+}
+
 header h1 {
+  display: none;
   font-size: 64px;
   color: #373a3f;
   letter-spacing: 1px;
