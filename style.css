@@ -10,12 +10,13 @@ body {
   border-color: rgba(231, 231, 231, 0.9);
 }
 
+/* TODO: Add logo-noshine.svg here? */
 .navbar-brand {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 header {
-  background: white;
+  background: hsla(65, 100%, 83%, 1);
   padding: 90px 0 40px;
   font-size: 18px;
   line-height: 135%;
@@ -33,6 +34,24 @@ header .logo img {
 header h1 {
   display: none;
 }
+
+h1 {
+  font-family: "Poller One", "Georgia", serif;
+  font-size: 30px;
+  font-style: normal;
+  color: #2b1d1d;
+  text-shadow: 2px 2px 0px #cdeea2, 3px 3px 0px #f54444;
+}
+
+h2 {
+  font-family: "Poller One", "Georgia", serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #2b1d1d;
+  text-shadow: 2px 2px 0px #cdeea2, 3px 3px 0px #f54444;
+}
+
+a, a:hover { color: #f54444; }
 
 article {
   background-color: #cdeea2;
