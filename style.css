@@ -60,7 +60,7 @@ h1 {
   font-size: 30px;
   font-style: normal;
   color: #2b1d1d;
-  text-shadow: 2px 2px 0px #cdeea2, 3px 3px 0px #f54444;
+  text-shadow: 2px 2px 0px white, 3px 3px 0px #f54444;
 }
 
 h2 {
@@ -68,13 +68,12 @@ h2 {
   font-style: normal;
   font-weight: 700;
   color: #2b1d1d;
-  text-shadow: 2px 2px 0px #cdeea2, 3px 3px 0px #f54444;
+  text-shadow: 2px 2px 0px white, 3px 3px 0px #f54444;
 }
 
 a, a:hover { color: #f54444; }
 
 article {
-  background-color: #cdeea2;
   font-size: 18px;
   line-height: 135%;
   padding-top: 50px;
