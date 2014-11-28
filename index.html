@@ -27,30 +27,6 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-        <span class="sr-only">Näytä linkit</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#" onclick="$('#navbar-collapse').collapse('hide')">Swing Spring 2015</a>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="english.html">In English</a></li>
-      </ul>
-      <ul class="nav navbar-nav">
-        <li><a href="#Ilmoittaudu" onclick="$('#navbar-collapse').collapse('hide')">Ilmoittaudu</a></li>
-        <li><a href="#Ohjelma" onclick="$('#navbar-collapse').collapse('hide')">Ohjelma</a></li>
-        <li><a href="#Valmentajat" onclick="$('#navbar-collapse').collapse('hide')">Valmentajat</a></li>
-        <li><a href="#Yhteystiedot" onclick="$('#navbar-collapse').collapse('hide')">Yhteystiedot</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 <header>
   <div class="container text-center">
     <div class="logo"><img src="img/logo.svg" onerror="this.src='img/logo.png'"></div>
@@ -158,6 +134,30 @@
     </div>
   </div>
 </article>
+<nav class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li><a href="english.html">In English</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li><a href="#" onclick="$('#navbar-collapse').removeClass('in')">Swing Spring 2015</a></li>
+        <li><a href="#Ilmoittaudu" onclick="$('#navbar-collapse').removeClass('in')">Ilmoittaudu</a></li>
+        <li><a href="#Ohjelma" onclick="$('#navbar-collapse').removeClass('in')">Ohjelma</a></li>
+        <li><a href="#Valmentajat" onclick="$('#navbar-collapse').removeClass('in')">Valmentajat</a></li>
+        <li><a href="#Yhteystiedot" onclick="$('#navbar-collapse').removeClass('in')">Yhteystiedot</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<button type="button" class="navbar-toggle hidden-print" data-toggle="collapse" data-target="#navbar-collapse">
+  <span class="sr-only">Näytä linkit</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
