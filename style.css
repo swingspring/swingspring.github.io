@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: hsla(65, 100%, 83%, 1);
+  background: #f8ffa8;
   padding: 90px 0 40px;
   font-size: 18px;
   line-height: 135%;
