@@ -16,6 +16,7 @@ body {
 .navbar .navbar-nav>li>a {
   color: #2b1d1d;
   font-size: 14px;
+  background-color: transparent;
 }
 .navbar .navbar-nav>li>a:hover {
   background-color: transparent;

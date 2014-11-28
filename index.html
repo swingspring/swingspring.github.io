@@ -159,5 +159,23 @@
   <span class="icon-bar"></span>
 </button>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var dest = 0;
+      if(this.hash.slice(1)) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        dest = target.length ? Math.min(target.offset().top, $(document).height() - $(window).height()) : 0;
+      }
+      $('html,body').animate({
+        scrollTop: dest
+      }, 500);
+      return false;
+    }
+  });
+});
+</script>
 </body>
 </html>
