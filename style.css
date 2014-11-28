@@ -3,13 +3,14 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #2b1d1d;
+  background: white;
 }
 
 .navbar {
   min-height: 0;
   border: 0;
-  background-color: white;
-  border-color: white;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .navbar .navbar-nav>li>a {
@@ -17,15 +18,12 @@ body {
   font-size: 14px;
 }
 .navbar .navbar-nav>li>a:hover {
-  background: white;
-}
-
-.navbar .collapse.in {
-  border-bottom: 1px solid #2b1d1d;
+  background-color: transparent;
 }
 
 .navbar-toggle {
   background: white;
+  background: rgba(255, 255, 255, 0.8);
   border-color: #2b1d1d;
   z-index: 10000;
   position: fixed;
@@ -37,7 +35,7 @@ body {
 }
 
 header {
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   padding: 90px 0 40px;
   font-size: 18px;
   line-height: 135%;
