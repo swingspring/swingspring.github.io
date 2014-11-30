@@ -20,11 +20,17 @@ header {
   padding: 90px 0 40px;
   font-size: 18px;
   line-height: 135%;
+
+/* Shadow bg vignetting as in http://css-tricks.com/vignetting-woes/ */
+  -webkit-box-shadow: inset 0px 0px 90px rgba(0,0,0,0.4);
+  -moz-box-shadow:    inset 0px 0px 90px rgba(0,0,0,0.4);
+  box-shadow:         inset 0px 0px 90px rgba(0,0,0,0.4);
+  line-height: 0; /* ensure no space between bottom */
 }
 
 header .logo {
   max-width: 600px;
-  margin: 0 auto 40px;
+  margin: 0 auto 50px;
 }
 
 header .logo img {
