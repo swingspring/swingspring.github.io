@@ -40,11 +40,20 @@ header {
   padding: 90px 0 40px;
   font-size: 18px;
   line-height: 135%;
+
+  background-image: url('img/pattern.jpg');
+  background-position: center;
+
+/* Shadow bg vignetting as in http://css-tricks.com/vignetting-woes/ */
+  -webkit-box-shadow: inset 0px 0px 90px rgba(0,0,0,0.4);
+  -moz-box-shadow:    inset 0px 0px 90px rgba(0,0,0,0.4);
+  box-shadow:         inset 0px 0px 90px rgba(0,0,0,0.4);
+  line-height: 0; /* ensure no space between bottom */
 }
 
 header .logo {
   max-width: 600px;
-  margin: 0 auto 40px;
+  margin: 0 auto 50px;
 }
 
 header .logo img {
@@ -55,18 +64,35 @@ header h1 {
   display: none;
 }
 
+h1 {
+  font-family: "Poller One", "Georgia", serif;
+  font-style: normal;
+  color: #2b1d1d;
+  text-shadow: 2px 2px 0px white, 3px 3px 0px #f54444;
+}
+
+h2 {
+  font-family: "Poller One", "Georgia", serif;
+  font-style: normal;
+  color: #2b1d1d;
+  text-shadow: 2px 2px 0px white, 3px 3px 0px #f54444;
+}
+
+a, a:hover { color: #f54444; }
+
 article {
-  background-color: #cdeea2;
   font-size: 18px;
   line-height: 135%;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
 article h1 {
-  padding-top: 70px;
+  margin-top: -20px;
+  padding-top: 100px;
   margin-bottom: 30px;
 }
 
 article h2 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
