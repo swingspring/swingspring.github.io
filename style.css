@@ -41,7 +41,8 @@ header {
   font-size: 18px;
   line-height: 135%;
 
-  background-image: url('img/nettisivu-pattern1.jpg');
+  background-image: url('img/pattern.jpg');
+  background-position: center;
 
 /* Shadow bg vignetting as in http://css-tricks.com/vignetting-woes/ */
   -webkit-box-shadow: inset 0px 0px 90px rgba(0,0,0,0.4);
