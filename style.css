@@ -68,19 +68,20 @@ h1 {
   font-family: "Poller One", "Georgia", serif;
   font-style: normal;
   color: #2b1d1d;
-  text-shadow: 2px 2px 0px white, 3px 3px 0px #f54444;
+  text-shadow: 2px 2px 0px #eff3be, 3px 3px 0px #f54444;
 }
 
 h2 {
   font-family: "Poller One", "Georgia", serif;
   font-style: normal;
   color: #2b1d1d;
-  text-shadow: 2px 2px 0px white, 3px 3px 0px #f54444;
+  text-shadow: 2px 2px 0px #eff3be, 3px 3px 0px #f54444;
 }
 
 a, a:hover { color: #f54444; }
 
 article {
+  background-color: #eff3be;
   font-size: 18px;
   line-height: 135%;
   padding-top: 50px;
