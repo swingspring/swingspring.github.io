@@ -26,11 +26,11 @@
   <link href="//fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body itemscope itemtype="http://data-vocabulary.org/Event">
 <header>
   <div class="container text-center">
-    <div class="logo"><img src="img/logo-white.svg" onerror="this.src='img/logo-white.png'"></div>
-    <h1>Swing Spring 15</h1>
+    <div class="logo"><img itemprop="photo" src="img/logo-white.svg" onerror="this.src='img/logo-white.png'"></div>
+    <h1 itemprop="summary">Swing Spring 15</h1>
     <a class="change-language" href="index.html">Suomeksi</a>
     <p class="white-overlay">
       Registration opens in January 2015. Before registering to the camp, you have to register your information in the Comets register. So, go to
@@ -55,15 +55,21 @@
     <div class="row">
       <div class="col-sm-4">
         <h2>What</h2>
-        <p>The biggest and best Lindy Hop dance camp in Finland, Swing Spring is here again!</p>
+        <p itemprop="description">The biggest and best Lindy Hop dance camp in Finland, Swing Spring is here again!</p>
       </div>
       <div class="col-sm-4">
         <h2>When</h2>
-        <p>May 13th - 17th 2015.</p>
+        <p><time itemprop="startDate" datetime="2015-05-13T20:00+03:00">May 13th</time> - <time itemprop="endDate" datetime="2015-05-17T17:00+03:00">17th 2015</time>.</p>
       </div>
       <div class="col-sm-4">
         <h2>Where</h2>
-        <p>The camp will take place at <a href="http://www.kannelopisto.fi/">Kanneljärven&nbsp;Opisto</a>, Lohja!</p>
+        <p itemprop="location" itemscope itemtype="http://data-vocabulary.org/​Organization">
+          The camp will take place at <a href="http://www.kannelopisto.fi/"><span itemprop="name">Kanneljärven&nbsp;Opisto</span></a>, Lohja!
+        </p>
+        <span itemprop="geo" itemscope itemtype="http://data-vocabulary.org/​Geo">
+          <meta itemprop="latitude" content="60.2738935"/>
+          <meta itemprop="longitude" content="23.9962709"/>
+        </span>
       </div>
     </div>
 
