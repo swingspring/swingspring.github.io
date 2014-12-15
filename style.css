@@ -102,3 +102,10 @@ article h1 {
 article h2 {
   margin-bottom: 15px;
 }
+
+.picture {
+  display: block;
+  margin: 20px auto 0;
+  width: 200px;
+  height: 200px;
+}
