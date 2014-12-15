@@ -55,7 +55,6 @@ header {
   -webkit-box-shadow: inset 0px 0px 90px rgba(0,0,0,0.4);
   -moz-box-shadow:    inset 0px 0px 90px rgba(0,0,0,0.4);
   box-shadow:         inset 0px 0px 90px rgba(0,0,0,0.4);
-  line-height: 0; /* ensure no space between bottom */
 }
 
 header .logo {
@@ -90,6 +89,10 @@ header .change-language {
 header .change-language:hover {
   color: #2b1d1d;
   text-decoration: none;
+}
+
+header p {
+  padding: 15px;
 }
 
 nav {
