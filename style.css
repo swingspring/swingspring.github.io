@@ -35,6 +35,10 @@ body {
   background: #2b1d1d;
 }
 
+.container {
+  max-width: 750px;
+}
+
 header {
   background: #e3d29a;
   padding: 90px 0 40px;
