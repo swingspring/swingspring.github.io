@@ -216,8 +216,11 @@ $(function() {
   });
 
   var stickyNav = $('.sticky-nav');
-  var stickyNavTop = stickyNav.offset().top;
-  function sticky(){ stickyNav.toggleClass('sticky', $(window).scrollTop() > stickyNavTop) };
+  var stickyNavTop;
+  function sticky(){
+    if(!stickyNav.hasClass('sticky')) stickyNavTop = stickyNav.offset().top;
+    stickyNav.toggleClass('sticky', $(window).scrollTop() > stickyNavTop);
+  };
   sticky();
   $(window).scroll(sticky);
 });
