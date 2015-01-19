@@ -162,28 +162,28 @@ article h2 {
 }
 
 .button {
-    margin: 20px;
-    height: 40px;
-    background-color: #eff3be; /* fallback */
-    background-color: hsla(15, 90%, 55%, 1);
-    box-shadow: hsla(15, 90%, 20%, 1) 0px -5px 0 0 inset, hsla(15, 90%, 50%, 1) 0 2px 0 0 inset;
-    position: relative;
-    /* Clip or don't clip the btn corner bevels */
-    overflow: hidden;
+  margin: 20px;
+  height: 40px;
+  background-color: #eff3be; /* fallback */
+  background-color: hsla(15, 90%, 55%, 1);
+  box-shadow: hsla(15, 90%, 20%, 1) 0px -5px 0 0 inset, hsla(15, 90%, 50%, 1) 0 2px 0 0 inset;
+  position: relative;
+  /* Clip or don't clip the btn corner bevels */
+  overflow: hidden;
 }
 
 .button div {
-    position: absolute;
-    width: 21px;
-    height: 21px;
-    border: solid hsla(15, 90%, 30%, 1) 3px;
-    border-radius: 100%;
-    background-color: #eff3be;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  border: solid hsla(15, 90%, 30%, 1) 3px;
+  border-radius: 100%;
+  background-color: #eff3be;
 }
 
 .button:active {
-    box-shadow: hsla(15, 90%, 10%, 1) 0px 5px 0 0 inset, hsla(15, 90%, 50%, 1) 0 -2px 0 0 inset;
-    background-color: hsla(15, 75%, 20%, 1);
+  box-shadow: hsla(15, 90%, 10%, 1) 0px 5px 0 0 inset, hsla(15, 90%, 50%, 1) 0 -2px 0 0 inset;
+  background-color: hsla(15, 75%, 20%, 1);
 }
 
 .top { top: -10px; }
@@ -194,17 +194,17 @@ article h2 {
 .button a { text-decoration: none; }
 
 h4 {
-    /* Center with 3 lines */
-    position: relative;
-    top: 50%;
-    transform: translateY(-10%);
+  /* Center text with 3 lines */
+  position: relative;
+  top: 50%;
+  transform: translateY(-10%);
 
-    font-family: 'Poller One', sans-serif;
-    font-size: 1.1em;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: hsla(15, 90%, 100%, 1);
+  font-family: 'Poller One', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: hsla(15, 90%, 100%, 1);
 }
 
 
