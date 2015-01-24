@@ -175,7 +175,7 @@ article h2 {
   radial-gradient(circle at top right, rgba(0,0,0,0) 10px, #f2460d 11px, #f2460d 12px, #f45925 13px),
   radial-gradient(circle at top left, rgba(0,0,0,0) 10px, #f2460d 11px, #f2460d 12px, #f45925 13px);
   background-position: bottom left, bottom right, top right, top left;
-  background-size: 50% 50%;
+  background-size: 60% 60%;
   background-repeat: no-repeat;
 }
 .button:hover,
@@ -192,7 +192,7 @@ article h2 {
   radial-gradient(circle at top right, rgba(0,0,0,0) 10px, #c2380a 11px, #c2380a 12px, #aa3109 13px),
   radial-gradient(circle at top left, rgba(0,0,0,0) 10px, #c2380a 11px, #c2380a 12px, #aa3109 13px);
   background-position: bottom left, bottom right, top right, top left;
-  background-size: 50% 50%;
+  background-size: 60% 60%;
   background-repeat: no-repeat;
 }
 .button:before {
@@ -207,7 +207,7 @@ article h2 {
   radial-gradient(circle at top right, rgba(0,0,0,0) 12px, #f2460d 13px),
   radial-gradient(circle at top left, rgba(0,0,0,0) 12px, #f2460d 13px);
   background-position: top right, top left;
-  background-size: 50% 100%;
+  background-size: 60% 100%;
   background-repeat: no-repeat;
 }
 .button:active:before {
@@ -216,7 +216,7 @@ article h2 {
   radial-gradient(circle at top right, rgba(0,0,0,0) 12px, #c2380a 13px),
   radial-gradient(circle at top left, rgba(0,0,0,0) 12px, #c2380a 13px);
   background-position: top right, top left;
-  background-size: 50% 100%;
+  background-size: 60% 100%;
   background-repeat: no-repeat;
 }
 .button:after {
@@ -231,7 +231,7 @@ article h2 {
   radial-gradient(circle at bottom left, rgba(0,0,0,0) 12px, #611c05 13px),
   radial-gradient(circle at bottom right, rgba(0,0,0,0) 12px, #611c05 13px);
   background-position: bottom left, bottom right;
-  background-size: 50% 100%;
+  background-size: 60% 100%;
   background-repeat: no-repeat;
 }
 
