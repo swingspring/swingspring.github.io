@@ -170,10 +170,10 @@ article h2 {
 
   background: #f45925;
   background:
-  radial-gradient(circle at bottom left, rgba(0,0,0,0) 10px, #611c05 11px, #611c05 12px, #f45925 13px),
-  radial-gradient(circle at bottom right, rgba(0,0,0,0) 10px, #611c05 11px, #611c05 12px, #f45925 13px),
-  radial-gradient(circle at top right, rgba(0,0,0,0) 10px, #f2460d 11px, #f2460d 12px, #f45925 13px),
-  radial-gradient(circle at top left, rgba(0,0,0,0) 10px, #f2460d 11px, #f2460d 12px, #f45925 13px);
+  radial-gradient(circle at bottom left, rgba(0,0,0,0) 7px, #611c05 8px, #611c05 9px, #f45925 10px),
+  radial-gradient(circle at bottom right, rgba(0,0,0,0) 7px, #611c05 8px, #611c05 9px, #f45925 10px),
+  radial-gradient(circle at top right, rgba(0,0,0,0) 7px, #f2460d 8px, #f2460d 9px, #f45925 10px),
+  radial-gradient(circle at top left, rgba(0,0,0,0) 7px, #f2460d 8px, #f2460d 9px, #f45925 10px);
   background-position: bottom left, bottom right, top right, top left;
   background-size: 55% 60%;
   background-repeat: no-repeat;
@@ -187,10 +187,10 @@ article h2 {
 .button:active {
   background: #aa3109;
   background:
-  radial-gradient(circle at bottom left, rgba(0,0,0,0) 10px, #611c05 11px, #611c05 12px, #aa3109 13px),
-  radial-gradient(circle at bottom right, rgba(0,0,0,0) 10px, #611c05 11px, #611c05 12px, #aa3109 13px),
-  radial-gradient(circle at top right, rgba(0,0,0,0) 10px, #c2380a 11px, #c2380a 12px, #aa3109 13px),
-  radial-gradient(circle at top left, rgba(0,0,0,0) 10px, #c2380a 11px, #c2380a 12px, #aa3109 13px);
+  radial-gradient(circle at bottom left, rgba(0,0,0,0) 7px, #611c05 8px, #611c05 9px, #aa3109 10px),
+  radial-gradient(circle at bottom right, rgba(0,0,0,0) 7px, #611c05 8px, #611c05 9px, #aa3109 10px),
+  radial-gradient(circle at top right, rgba(0,0,0,0) 7px, #c2380a 8px, #c2380a 9px, #aa3109 10px),
+  radial-gradient(circle at top left, rgba(0,0,0,0) 7px, #c2380a 8px, #c2380a 9px, #aa3109 10px);
   background-position: bottom left, bottom right, top right, top left;
   background-size: 55% 60%;
   background-repeat: no-repeat;
@@ -204,8 +204,8 @@ article h2 {
 
   background: #f2460d;
   background:
-  radial-gradient(circle at top right, rgba(0,0,0,0) 11px, #f2460d 12px),
-  radial-gradient(circle at top left, rgba(0,0,0,0) 11px, #f2460d 12px);
+  radial-gradient(circle at top right, rgba(0,0,0,0) 8px, #f2460d 9px),
+  radial-gradient(circle at top left, rgba(0,0,0,0) 8px, #f2460d 9px);
   background-position: top right, top left;
   background-size: 55% 100%;
   background-repeat: no-repeat;
@@ -213,8 +213,8 @@ article h2 {
 .button:active:before {
   background: #c2380a;
   background:
-  radial-gradient(circle at top right, rgba(0,0,0,0) 11px, #c2380a 12px),
-  radial-gradient(circle at top left, rgba(0,0,0,0) 11px, #c2380a 12px);
+  radial-gradient(circle at top right, rgba(0,0,0,0) 8px, #c2380a 9px),
+  radial-gradient(circle at top left, rgba(0,0,0,0) 8px, #c2380a 9px);
   background-position: top right, top left;
   background-size: 55% 100%;
   background-repeat: no-repeat;
@@ -228,8 +228,8 @@ article h2 {
 
   background: #611c05;
   background:
-  radial-gradient(circle at bottom left, rgba(0,0,0,0) 11px, #611c05 12px),
-  radial-gradient(circle at bottom right, rgba(0,0,0,0) 11px, #611c05 12px);
+  radial-gradient(circle at bottom left, rgba(0,0,0,0) 8px, #611c05 9px),
+  radial-gradient(circle at bottom right, rgba(0,0,0,0) 8px, #611c05 9px);
   background-position: bottom left, bottom right;
   background-size: 55% 100%;
   background-repeat: no-repeat;
