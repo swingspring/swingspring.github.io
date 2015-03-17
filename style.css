@@ -304,3 +304,49 @@ article h2 {
 .cost strong {
   font-size: 120%;
 }
+
+@media print {
+  header {
+    page-break-after: always;
+  }
+
+  article {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  article h1 {
+    page-break-before: always;
+    page-break-after: avoid;
+    padding-top: 15px;
+  }
+
+  article h2 {
+    page-break-after: avoid;
+  }
+
+  .day-schedule {
+    page-break-inside: avoid;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .teacher {
+    page-break-inside: avoid;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .teacher img {
+    display: block;
+    margin: 0 auto 0;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .cost {
+    padding: 0;
+    margin-top: 0;
+  }
+}
